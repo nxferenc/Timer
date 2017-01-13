@@ -12,6 +12,14 @@
       <div class="top-bar-left">
         <ul class="menu">
           <li class="menu-text"> <a href="index.html">Timer</a></li>
+          <li><a href="222.html">2x2x2</a></li>
+          <li><a href="333.html">3x3x3</a></li>
+          <li><a href="444.html">4x4x4</a></li>
+          <li><a href="555.html">5x5x5</a></li>
+          <li><a href="666.html">6x6x6</a></li>
+          <li><a href="777.html">7x7x7</a></li>
+          <li><a href="pyram.html">Pyraminx</a></li>
+          <li><a href="minx.html">Megaminx</a></li>
         </ul>
       </div>
       <div class="top-bar-right">
@@ -21,81 +29,81 @@
         </ul>
       </div>
     </div>
-    <div class="row">
-      <div class="small-4 columns">
-        <h1>OLL :</h1>
-        <ul>
-          <li>Line : <strong>F (R U R' U') F'</strong></li>
-          <li>L : <strong>f (R U R' U') f'</strong></li>
-          <li>Dot : <strong>F (R U R' U') F' f (R U R' U') f'</strong></li>
-          <li>Car : <strong>F (R U R' U') (R U R' U') (R U R' U') F'</strong></li>
-          <li>Blinker : <strong>f (R U R' U') f' F (R U R' U') F'</strong></li>
-          <li>Sune : <strong>(R U R') U (R U2 R')</strong></li>
-          <li>Anti-Sune : <strong>(R U2 R' U') (R U' R')</strong></li>
-          <li>Bowtie : <strong>F' (r U R' U') (r' (F R F')</strong></li>
-          <li>Headlights : <strong>(R2 D) (R' U2) (R D') (R' U2 R')</strong></li>
-          <li>Chameleon : <strong>r (U R' U') r' (F R F')</strong>    </li>
-        </ul>
-        <h1>PLL :</h1>
-        <ul>
-          <li>Aa : <strong>x (R' U R') D2 (R U R') D2 R2 x'</strong> <br></li>
-          <li>Ab : <strong>x R2 D2 (R U R') D2 (R U' R) x'</strong> <br></li><br>
-          <li>H : <strong>M2 U M2 U2 M2 U M2</strong> <br></li><br>
-          <li>Ua : <strong>M2 U' M' U2 M U' M2</strong> <br></li>
-          <li>Ub : <strong>M2 U M' U2 M U M2</strong> <br></li><br>
-          <li>Z : <strong>M2 U M2 U M' U2 M2 U2 M' U2</strong> <br></li>
-        </ul>
-      </div>
-      <div class="timer small-4 columns">
-        <div id="cube" class="cube"></div>
-        <div class="random"> <strong id="random"> </strong></div><br>
-        <div id="timer" class="current">00:00.00</div><br>
-        <h1>Time :</h1>
-        <div class="row time">
-          <div class="last small-3 colums">
-            <ul id="time_1">
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-            </ul>
-          </div>
-          <div class="last small-3 colums">
-            <ul id="time_2">
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-            </ul>
-          </div>
-          <div class="last small-3 colums">
-            <ul id="time_3">
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-            </ul>
-          </div>
-          <div class="last small-3 colums">
-            <ul id="time_4">
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-              <li>00:00.00	</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="small-4 columns">
-        <div class="worldRecord">
-          <h1>Feliks Zemdegs - 4.73s :</h1><br><strong>U2 F L2 U2 R2 F L2 F2 L’ D’ B2 R D2 R’ B’ U’ L’ B’ <br></strong><br><strong>x’ y’ </strong><span class="comment">// inspection <br> </span><strong>U’ R F R’ (U’ D) </strong><span class="comment">// Xcross <br> </span><strong>L’ U2 L2 U’ L’ </strong><span class="comment">// 2nd / 3rd pairs <br> </span><strong>U R’ U R R’ U R U R’ U’ R </strong><span class="comment">// 4th pair <br> </span><strong>F R U’ R’ U’ R U R’ F’ </strong><span class="comment">// OLL(CP) <br> </span><strong>U’ R U R U R U’ R’ U’ R2 U </strong><span class="comment">// EPLL <br></span><br>
-          <h1>Mats Valk - 4.74s :</h1><br><strong>F2 U2 R2 F’ L2 F2 U’ R F D U F2 U R B R2 U B’ R’ <br></strong><br><strong>z </strong><span class="comment">// inspection <br></span><strong>r’ D R2 </strong><span class="comment">// cross <br></span><strong>R U’ R’ U’ L’ U’ L </strong><span class="comment">// 1st pair <br></span><strong>U’ U’ R U R’ d’ U’ R U R’ </strong><span class="comment">// 2nd pair <br></span><strong>d’ U’ R U’ R’ L U’ L’ </strong><span class="comment">// 3rd pair <br></span><strong>y’ U’ U’ R’ U2 R </strong><span class="comment">// setup <br></span><strong>U’ U’ R’ U R’ F R F’ U R </strong><span class="comment">// VLS <br></span><strong>U </strong><span class="comment">// AUF <br></span>
-        </div>
-      </div>
-    </div>
   </body>
 </html>
+<div class="row">
+  <div class="small-4 columns">
+    <h1>OLL :</h1>
+    <ul>
+      <li>Line : <strong>F (R U R' U') F'</strong></li>
+      <li>L : <strong>f (R U R' U') f'</strong></li>
+      <li>Dot : <strong>F (R U R' U') F' f (R U R' U') f'</strong></li>
+      <li>Car : <strong>F (R U R' U') (R U R' U') (R U R' U') F'</strong></li>
+      <li>Blinker : <strong>f (R U R' U') f' F (R U R' U') F'</strong></li>
+      <li>Sune : <strong>(R U R') U (R U2 R')</strong></li>
+      <li>Anti-Sune : <strong>(R U2 R' U') (R U' R')</strong></li>
+      <li>Bowtie : <strong>F' (r U R' U') (r' (F R F')</strong></li>
+      <li>Headlights : <strong>(R2 D) (R' U2) (R D') (R' U2 R')</strong></li>
+      <li>Chameleon : <strong>r (U R' U') r' (F R F')</strong>    </li>
+    </ul>
+    <h1>PLL :</h1>
+    <ul>
+      <li>Aa : <strong>x (R' U R') D2 (R U R') D2 R2 x'</strong> <br></li>
+      <li>Ab : <strong>x R2 D2 (R U R') D2 (R U' R) x'</strong> <br></li><br>
+      <li>H : <strong>M2 U M2 U2 M2 U M2</strong> <br></li><br>
+      <li>Ua : <strong>M2 U' M' U2 M U' M2</strong> <br></li>
+      <li>Ub : <strong>M2 U M' U2 M U M2</strong> <br></li><br>
+      <li>Z : <strong>M2 U M2 U M' U2 M2 U2 M' U2</strong> <br></li>
+    </ul>
+  </div>
+  <div class="timer small-4 columns">
+    <div id="cube" class="cube"></div>
+    <div class="random"> <strong id="random"> </strong></div><br>
+    <div id="timer" class="current">00:00.00</div><br>
+    <h1>Time :</h1>
+    <div class="row time">
+      <div class="last small-3 colums">
+        <ul id="time_1">
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+        </ul>
+      </div>
+      <div class="last small-3 colums">
+        <ul id="time_2">
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+        </ul>
+      </div>
+      <div class="last small-3 colums">
+        <ul id="time_3">
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+        </ul>
+      </div>
+      <div class="last small-3 colums">
+        <ul id="time_4">
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+          <li>00:00.00	</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="small-4 columns">
+    <div class="worldRecord">
+      <h1>Feliks Zemdegs - 4.73s :</h1><br><strong>U2 F L2 U2 R2 F L2 F2 L’ D’ B2 R D2 R’ B’ U’ L’ B’ <br></strong><br><strong>x’ y’ </strong><span class="comment">// inspection <br> </span><strong>U’ R F R’ (U’ D) </strong><span class="comment">// Xcross <br> </span><strong>L’ U2 L2 U’ L’ </strong><span class="comment">// 2nd / 3rd pairs <br> </span><strong>U R’ U R R’ U R U R’ U’ R </strong><span class="comment">// 4th pair <br> </span><strong>F R U’ R’ U’ R U R’ F’ </strong><span class="comment">// OLL(CP) <br> </span><strong>U’ R U R U R U’ R’ U’ R2 U </strong><span class="comment">// EPLL <br></span><br>
+      <h1>Mats Valk - 4.74s :</h1><br><strong>F2 U2 R2 F’ L2 F2 U’ R F D U F2 U R B R2 U B’ R’ <br></strong><br><strong>z </strong><span class="comment">// inspection <br></span><strong>r’ D R2 </strong><span class="comment">// cross <br></span><strong>R U’ R’ U’ L’ U’ L </strong><span class="comment">// 1st pair <br></span><strong>U’ U’ R U R’ d’ U’ R U R’ </strong><span class="comment">// 2nd pair <br></span><strong>d’ U’ R U’ R’ L U’ L’ </strong><span class="comment">// 3rd pair <br></span><strong>y’ U’ U’ R’ U2 R </strong><span class="comment">// setup <br></span><strong>U’ U’ R’ U R’ F R F’ U R </strong><span class="comment">// VLS <br></span><strong>U </strong><span class="comment">// AUF <br></span>
+    </div>
+  </div>
+</div>
