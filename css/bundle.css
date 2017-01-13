@@ -1,3 +1,8 @@
+.randomScramble {
+  text-align: center;
+  color: #2c3840;
+  margin-top: 3vh; }
+
 body {
   background-color: #4caf50;
   color: #eee; }
@@ -16,19 +21,6 @@ body {
         color: white; }
       body .top-bar .menu .menu-text {
         padding: 0; }
-  body .timer {
-    margin: 10vh 0 0 0; }
-    body .timer .random {
-      text-align: center;
-      color: #2c3840; }
-    body .timer .current {
-      font-size: 6vw;
-      text-align: center;
-      font-family: monospace;
-      border-radius: 15px;
-      background-color: #2c3840; }
-    body .timer .avg {
-      text-align: right; }
   body .worldRecord .comment {
     color: #ddd;
     font-style: italic;
@@ -39,5 +31,14 @@ body {
 
 .cube {
   text-align: center; }
+
+
+.timer {
+  font-size: 5vw;
+  text-align: center;
+  font-family: monospace;
+  border-radius: 15px;
+  background-color: #2c3840;
+  margin: 8vh 0px 10vh 0px; }
 
 /*# sourceMappingURL=bundle.css.map */
