@@ -44,7 +44,7 @@ const Scramble = {
 
     document.getElementById(id).innerHTML = ''
 
-    scramblers[type].drawScramble(id, scramble.state, 200, 100)
+    scramblers[type].drawScramble(id, scramble.state, 250, 150)
   },
 
   inner: (id, scramble) => {
